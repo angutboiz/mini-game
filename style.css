@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Fredericka+the+Great&family=Lato&family=Playfair+Display:ital,wght@1,500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+header {
+    font-family: "Fredericka the Great", cursive;
+}
+
+.container {
+    border: 5px solid #df6e89;
+}
+
+.header-top {
+    display: block;
+    background-color: #e18aaa;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.header-top div {
+    width: 50%;
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
+.header-top div p {
+    float: right;
+}
+
+.header-bot {
+    height: 38px;
+}
+
+.header-bot nav ul li {
+    padding: 8px 16px;
+    text-align: center;
+}
+
+.header-bot nav ul li a {
+    color: #fff;
+}
+
+.header-bot nav ul li a i {
+    color: #af161b;
+    margin-right: 8px;
+}
+
+.c-1 {
+    background-color: #f58ea1;
+}
+
+.c-2 {
+    background-color: #f4adbd;
+}
+
+.c-3 {
+    background-color: #d985a4;
+}
+
+.col-2 {
+    float: left;
+    width: 50%;
+}
+
+.col-3 {
+    float: left;
+    width: 33%;
+}
+
+.col-4 {
+    float: left;
+    width: 25%;
+}
+
+.col-5 {
+    float: left;
+    width: 20%;
+}
+
+.col-6 {
+    float: left;
+    width: 16.6667%;
+}
+
+.col-12 {
+    float: left;
+    width: 8%;
+}
+
+main {
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    height: 870px;
+}
+
+.main-top {
+    height: 800px;
+}
+
+.main-center-left {
+    float: left;
+    width: 20%;
+    height: 100%;
+    border: 1px solid #ccc;
+}
+
+.main-center-left nav {
+}
+
+.main-center-left nav ul {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.main-center-left nav ul li {
+    background-color: #f58ea1;
+    margin-bottom: 4px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px #000000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main-center-left nav ul li i {
+    margin-right: 12px;
+}
+
+.main-center-right {
+    float: left;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    height: 100%;
+}
+
+.show-image {
+    height: 170px;
+}
+
+.main-center-right .component .header {
+    color: #af161b;
+    border-bottom: 1px solid #ccc;
+}
+
+.main-center-right .component .show-image img {
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 5px #000000;
+    width: 16%;
+    margin-right: 5px;
+    margin-top: 30px;
+}
+
+.mt-30 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.i-100 {
+    height: 160px;
+}
+
+.i-100 img {
+    margin: 1px;
+    height: 150px;
+}
+
+.column-12 img {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.mt-3 {
+}
+
+.red {
+    color: #af161b;
+    font-size: 25px;
+    border: 1px solid #bdbaba;
+    margin-bottom: 10px;
+}
+
+.main-footer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.box-address {
+    height: 80px;
+}
+
+.box-address label,
+.box-font label {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 1px 1px 10px #000;
+}
+
+.t-10 {
+    margin-top: 10px;
+}
+
+.box-font {
+    height: 30px;
+}
+
+.box-big {
+    height: 85px;
+}
+
+.box-right {
+    padding: 10px;
+}
+
+.box-right nav,
+.box-right ul {
+    height: 100%;
+    text-align: center;
+}
+
+.box-right nav ul li a {
+}
+
+.box-right nav ul li {
+    border: 1px solid #ccc;
+    padding: 8px;
+    height: 100%;
+    font-size: 14px;
+}
+
+.box-right nav ul li i {
+    margin-right: 8px;
+}
+
+.box-left {
+    padding: 20px 80px;
+    text-align: center;
+}
+
+.box-right {
+    height: 100%;
+}
+
+footer {
+    font-family: "Climate Crisis", cursive;
+    text-shadow: 1px 1px 1px #343232;
+}
+
+.flight,
+.plot {
+    color: #000;
+}
+
+.a {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.quest {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+.quest p {
+    color: red;
+    font-weight: bold;
+}
+
+.quest input[type="submit"] {
+    background-color: #df6e89;
+    color: #fff;
+    border: none;
+    padding: 5px;
+}
+
+.quest input {
+}
